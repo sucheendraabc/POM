@@ -16,7 +16,7 @@ public class MagentoTest
 		Welcome w = new Welcome(driver);
 		w.clickOnMyAcct();
 		Login l = new Login(driver);
-		l.typeEmail("sucheendra.abc@gmail.com");
+		l.typeEmail("nitinmanjunath1991@gmail.com");
 		l.typePwd("Welcome123");
 		l.clickOnLogin();
 		Main m = new Main(driver);
